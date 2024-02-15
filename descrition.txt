@@ -1,0 +1,61 @@
+
+Функционал программы (Program Functionality):
+
+Программа представляет собой простой телефонный справочник с основными операциями, реализованными через консольный интерфейс.
+
+The program is a simple phonebook application with basic operations implemented through a console interface.
+
+Отображение записей (Display Records):
+
+Пользователь может просматривать записи из телефонной книги постранично с фиксированным размером страницы (по умолчанию 5 записей на странице).
+Users can view records from the phonebook paginated with a fixed page size (default 5 records per page).
+
+Добавление новой записи (Add Record):
+
+Позволяет пользователю добавить новую запись в телефонную книгу, предоставляя необходимую информацию, такую как фамилия, имя, отчество, организация, рабочий телефон и личный телефон.
+Allows users to add a new record to the phonebook by providing information such as last name, first name, middle name, organization, work phone, and personal phone.
+
+Редактирование записей (Edit Records):
+
+Позволяет пользователю редактировать существующую запись, выбрав соответствующий номер записи и вводя новые значения для каждого поля.
+Enables users to edit an existing record by selecting the record number and entering new values for each field.
+
+Поиск записей (Search Records):
+
+Пользователь может выполнять поиск записей по заданным характеристикам, вводя критерии поиска в виде строки, разделенной запятыми.
+Users can search for records based on specified characteristics by entering search criteria as a comma-separated string.
+
+Сохранение данных в файле (Save Data to File):
+
+Все изменения в телефонной книге сохраняются в текстовом файле для последующего доступа при повторном запуске программы.
+All changes to the phonebook are saved to a text file for subsequent access upon restarting the program.
+
+Пагинация и взаимодействие с пользователем (Pagination and User Interaction):
+
+Используется пагинация для удобного отображения записей в виде нумерованных страниц, и взаимодействие с пользователем организовано через консольный интерфейс.
+Pagination is used for convenient display of records in numbered pages, and user interaction is organized through the console interface.
+
+Модульная структура и тестирование (Modular Structure and Testing):
+
+Программа разделена на модули для улучшения читаемости и обслуживаемости кода.
+The program is divided into modules to improve code readability and maintainability.
+
+Документация и аннотации (Documentation and Annotations):
+
+В коде предусмотрены комментарии и аннотации для лучшего понимания функций и переменных.
+Code includes comments and annotations for better understanding of functions and variables.
+
+Ввод и вывод через консоль (Console Input and Output):
+
+Все взаимодействие с программой осуществляется через консольный интерфейс без использования веб-интерфейса или графического интерфейса пользователя.
+All interaction with the program is done through a console interface without using a web or graphical user interface.
+
+Хранение данных в текстовом файле (Data Storage in Text File):
+
+Данные телефонной книги организованы и хранятся в виде текстового файла, который можно легко обменять или использовать на других устройствах.
+Phonebook data is organized and stored in a text file, which can be easily shared or used on other devices.
+
+Проверка и тестирование (Validation and Testing):
+
+Программа включает в себя проверку на корректность ввода и вывода, а также тесты для проверки основных функций.
+The program includes input and output validation, as well as tests to verify core functionality.
